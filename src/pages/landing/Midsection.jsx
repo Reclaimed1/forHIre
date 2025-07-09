@@ -1,5 +1,5 @@
 import { useRef, useEffect, useState } from "react"
-import Properties from "./properties";
+import Properties from "./Properties";
 export default function Midsection() {
     const propRef = useRef(null)
     const [show, setShow] = useState(false)
