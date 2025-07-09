@@ -17,7 +17,7 @@ export default function Landing() {
   }, [])
   return (
     <div>
-      <div className="bg-[url(../../../public/bgimglanding.png)] bg-cover bg-center h-[70vh]">
+      <div  className="imagine bg-cover bg-center h-[70vh]">
         <Nav />
         <div className={`transition-all duration-700 ease-out ${show ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-8'}`}> 
           <Textonpicturetop />
