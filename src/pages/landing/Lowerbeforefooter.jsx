@@ -3,10 +3,10 @@ import Boast from "../../cmp/Boast";
 
 export default function Lowerbeforefooter(){
     return(
-       <div className="py-12">
+       <div className="py-12 md:px-40">
         <div className="grid grid-cols-1 md:grid-cols-2 px-3 gap-3">
 <div className="space-y-3">
-        <h1 className="text-2xl font-bold">Your Trusted Partner In Real Estate Excellence</h1>
+        <h1 className="text-2xl font-bold md:text-4xl">Your Trusted Partner In Real Estate Excellence</h1>
         <p className="">With decades of experience in the real estate market, 
         we are committed to providing exceptional service and 
         expertise to our clients, ensuring their needs are met
@@ -29,7 +29,7 @@ export default function Lowerbeforefooter(){
 <p className="text-sm">We will help you understand your budget,giving you a clear understanding of what you can afford. </p>
 </div>
  <Link to="/contact">
-                <button className="px-4 py-1.5 bg-[#B0DB9C] text-white rounded hover:bg-green-700 w-full">Contact Us</button>
+                <button className="px-4 py-1.5 bg-[#B0DB9C] text-white rounded hover:bg-green-700 w-full md:text-xl">Contact Us</button>
             </Link>
 </div>
         </div>

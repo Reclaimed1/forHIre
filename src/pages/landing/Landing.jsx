@@ -17,12 +17,12 @@ export default function Landing() {
   }, [])
   return (
     <div>
-      <div  className="imagine bg-cover bg-center h-[70vh]">
+      <div  className="imagine bg-cover bg-center h-screen">
         <Nav />
         <div className={`transition-all duration-700 ease-out ${show ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-8'}`}> 
           <Textonpicturetop />
         </div>
-        <div className={` absolute top-85 right-10 transition-all duration-700 ease-out ${showContact ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-8'}`}>
+        <div className={` absolute top-85 right-10 transition-all duration-700 ease-out md:top-120 md:right-210 ${showContact ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-8'}`}>
           <Contactusbutton />
         </div>
       </div>

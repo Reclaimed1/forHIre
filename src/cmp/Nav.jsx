@@ -25,7 +25,7 @@ function handleMenue() {
     <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#175046" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-youtube-icon lucide-youtube"><path d="M2.5 17a24.12 24.12 0 0 1 0-10 2 2 0 0 1 1.4-1.4 49.56 49.56 0 0 1 16.2 0A2 2 0 0 1 21.5 7a24.12 24.12 0 0 1 0 10 2 2 0 0 1-1.4 1.4 49.55 49.55 0 0 1-16.2 0A2 2 0 0 1 2.5 17"/><path d="m10 15 5-3-5-3z"/></svg>
         </div>
         </div> */}
-        <div className="flex justify-between bg-[#B0DB9C] relative px-4 py-3 md:px-18 ">
+        <div className="flex justify-between bg-[#B0DB9C] relative px-4 py-3 md:px-40 ">
         <div>
             <img className="h-20 bg-[#B0DB9C]" src="logo.png" alt="" />
         </div>
@@ -41,7 +41,7 @@ function handleMenue() {
                     <a className="block md:flex hover:underline" href="#try">Services</a>
                     <div className="mt-4 md:mt-0 md:ml-8">
                          <Link to="/contact">
-                <button className="px-4 py-1.5 bg-[#B0DB9C] text-white rounded hover:bg-green-700 transition-colors duration-300">Contact Us</button>
+                <button className="px-4 py-1.5 bg-[#1f3615] text-white md:mb-3  rounded hover:bg-green-700 transition-colors duration-300">Contact Us</button>
             </Link>
                     </div>
                 </div>

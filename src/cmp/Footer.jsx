@@ -3,8 +3,8 @@ export default function Footer() {
   return (
     <footer className="">
         <Sayhello />
-        <div className="bg-black text-white py-10 px-3 lg:px-10 w-full">
-            <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-3 border-b pb-6 w-full">
+        <div className="bg-black text-white py-10 px-3 lg:px-20 w-full">
+            <div className="grid grid-cols-1  md:grid-cols-3 gap-3 border-b pb-6 w-full">
            
             <div>
                 <div className="font-bold pb-3">
@@ -34,10 +34,10 @@ export default function Footer() {
                 <h1 className="font-bold">CONTACT US</h1>
                 </div>
                 <div className="flex ">
-                <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="#70bd27" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-phone-icon lucide-phone"><path d="M13.832 16.568a1 1 0 0 0 1.213-.303l.355-.465A2 2 0 0 1 17 15h3a2 2 0 0 1 2 2v3a2 2 0 0 1-2 2A18 18 0 0 1 2 4a2 2 0 0 1 2-2h3a2 2 0 0 1 2 2v3a2 2 0 0 1-.8 1.6l-.468.351a1 1 0 0 0-.292 1.233 14 14 0 0 0 6.392 6.384"/></svg><span className="ml-2">01126112</span>
+                <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="#70bd27" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-phone-icon lucide-phone"><path d="M13.832 16.568a1 1 0 0 0 1.213-.303l.355-.465A2 2 0 0 1 17 15h3a2 2 0 0 1 2 2v3a2 2 0 0 1-2 2A18 18 0 0 1 2 4a2 2 0 0 1 2-2h3a2 2 0 0 1 2 2v3a2 2 0 0 1-.8 1.6l-.468.351a1 1 0 0 0-.292 1.233 14 14 0 0 0 6.392 6.384"/></svg><span className="ml-2">08152611202</span>
                 </div>
                 <div className="hidden md:block">
-                    contact@thedust.com
+                    contact@ecohome.com
                 </div>
             </div>
            </div>
