@@ -18,3 +18,12 @@ background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/s
 .imagine{
     background-image: url("../public/bgimglanding.png");
 }
+.imagine1{
+    background-image: url("../public/prop1.png");
+}
+.imagine2{
+    background-image: url("../public/prop2.png");
+}
+.imagine3{
+    background-image: url("../public/prop3.png");
+}

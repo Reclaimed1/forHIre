@@ -3,7 +3,7 @@ export default function Properties() {
 return (
     <div className="my-12">
         <div className="grid grid-cols-1 md:grid-cols-3 gap-5 px-5">
-        <div className="bg-[url(prop1.png)] bg-cover bg-center h-[30vh] w-full rounded-t-2xl md:h-[30vh] lg:h-[40vh] group relative ">
+        <div className="imagine1 bg-cover bg-center h-[30vh] w-full rounded-t-2xl md:h-[30vh] lg:h-[40vh] group relative ">
             <div className="opacity-0 group-hover:opacity-100 transition-opacity duration-500 absolute inset-0 flex items-center justify-center text-white text-2xl font-bold">
                 <div className="text-start  ">
                 <h1>Luxury Modern Villa</h1>
@@ -17,7 +17,7 @@ return (
                 </div>
             </div>
         </div>
-        <div className="bg-[url(prop2.png)] bg-cover bg-center h-[30vh] w-full rounded-t-2xl md:h-[30vh] lg:h-[40vh] group relative ">
+        <div className="imagine2 bg-cover bg-center h-[30vh] w-full rounded-t-2xl md:h-[30vh] lg:h-[40vh] group relative ">
             <div className="opacity-0 group-hover:opacity-100 transition-opacity duration-500 absolute inset-0 flex items-center justify-center text-white text-2xl font-bold">
                 <div className="text-start  ">
                 <h1>Luxury Modern Villa</h1>
@@ -31,7 +31,7 @@ return (
                 </div>
             </div>
         </div>
-        <div className="bg-[url(prop3.png)] bg-cover bg-center h-[30vh] w-full rounded-t-2xl md:h-[30vh] lg:h-[40vh] group relative ">
+        <div className="imagine3 bg-cover bg-center h-[30vh] w-full rounded-t-2xl md:h-[30vh] lg:h-[40vh] group relative ">
             <div className="opacity-0 group-hover:opacity-100 transition-opacity duration-500 absolute inset-0 flex items-center justify-center text-white text-2xl font-bold">
                 <div className="text-start  ">
                 <h1>Luxury Modern Villa</h1>
